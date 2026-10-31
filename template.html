@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Documentação de infraestrutura e operação para o analista de TI.">
+  <title>@@TITLE@@ · Wiki de TI</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%23336'/%3E%3Ctext x='16' y='23' text-anchor='middle' font-size='23' font-family='serif' fill='white'%3EW%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/wiki.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#documento">Ir para o conteúdo</a>
+  <header class="site-header">
+    <a class="brand" href="/">W<span><strong>Wiki de TI</strong><small>Acquaville · Handover</small></span></a>
+    <span class="header-note">Infraestrutura e operação</span>
+    <button id="menu-button" aria-expanded="false" aria-controls="navigation">Menu</button>
+  </header>
+  <div class="layout">
+    <nav id="navigation" aria-label="Documentos">@@NAV@@</nav>
+    <main id="documento">
+      <div class="article-tools"><span>Artigo</span><a href="/@@SOURCE@@?source=1">Ver Markdown</a>@@EDIT_BUTTON@@</div>
+      <section id="editor" hidden aria-label="Editar artigo">
+        <label for="editor-source">Conteúdo do artigo em Markdown</label>
+        <p class="editor-help">Edite o texto abaixo. Use # para títulos, - para listas e **texto** para negrito. Ao salvar, o arquivo Markdown é atualizado e a versão anterior fica guardada.</p>
+        <textarea id="editor-source" spellcheck="false"></textarea>
+        <div class="editor-actions"><button id="save-button" type="button">Salvar alterações</button><button id="cancel-button" type="button">Cancelar</button></div>
+      </section>
+      <p id="editor-status" role="status" aria-live="polite"></p>
+      <article>@@CONTENT@@</article>
+      <footer>Arquivo: @@PATH@@ · Modificado em @@MODIFIED@@</footer>
+    </main>
+    <aside class="contents" aria-label="Índice deste artigo"><h2>Nesta página</h2>@@TOC@@</aside>
+  </div>
+</body>
+</html>
