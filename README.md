@@ -50,3 +50,4 @@ No computador que executa o servidor, abra `http://localhost:8088`, escolha o ar
 O editor avisa antes de sair com alterações e impede salvar sobre uma versão modificada depois da abertura. Cada salvamento guarda a versão anterior em `backups/edicao-DATA-HORA/`, mantendo o caminho relativo do artigo. Para recuperar, copie o Markdown da versão desejada de volta para o mesmo caminho dentro de `docs/`.
 
 A edição só é aceita em conexões locais por `localhost` ou `127.0.0.1`; pela rede, a wiki continua disponível para leitura. Requisições de gravação exigem origem da própria wiki e token da sessão do servidor. Os backups não são servidos pela wiki.
+# wikiahandoff
