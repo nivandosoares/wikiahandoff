@@ -1,5 +1,13 @@
 # Wiki local do handover
 
+Wiki local com interface web e ferramentas de verificação do editor.
+
+**Arquivos principais**
+
+- [server.py](<server.py>)
+- [template.html](<template.html>)
+- [check_editor.py](<check_editor.py>)
+
 Mostra os arquivos de `docs/` em HTML. O editor grava as alterações nos Markdown do próprio repositório.
 
 ## Iniciar
